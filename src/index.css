@@ -1,0 +1,108 @@
+#root .navigation a {
+    display: block;
+    margin: 0 2rem;
+    text-decoration: none;
+    color: #616161;
+}
+
+#root a:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.card {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 28%;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.deleteIcon {
+    float: right;
+}
+
+.inpurRoot, .inputInput {
+    display: inline-block;
+}
+
+.container {
+    margin: 2rem;
+}
+
+#root .title {
+    margin: 2rem;
+    text-align: center;
+}
+.addCard {
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.addCard-container, .searchCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-break: break-word;
+}
+
+.addCard-container__title-input, .addCard-container__text-input {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+    white-space: pre-wrap;
+}
+
+.searchCard-container {
+    flex-direction: row;
+    position: absolute;
+    top: 0.9rem;
+    right: 1.3rem;
+    padding: 0 0.7rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.searchCard-container__icon {
+    align-self: center;
+    color: #9E9E9E;
+}
+
+.addCard-container__title-input::-webkit-input-placeholder, .addCard-container__text-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding: 0.2rem;
+    font-weight: bold;
+    color:#BDBDBD;
+}
+
+.addCard-container__text-input::-webkit-scrollbar { 
+    width: 0; 
+}
+
+.addCard-container__text-input::-webkit-input-placeholder {
+    font-weight: normal;
+}
+
+.addCard .addCard-container__button {
+width: 30%;
+margin: 0 auto;
+}
+
+#root .editCard-button {
+width: 35%;
+height: 46px;
+margin: 0.5rem;
+}
+
+.buttonContainer {
+display: flex;
+justify-content: center;
+}
